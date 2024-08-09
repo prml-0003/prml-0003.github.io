@@ -36,7 +36,7 @@ via well structured, highly granular, integrious, disaggregated raw measures.
 
 ## Conceptual Structures
 
-There are separate sections for mileage and premises; the miscellaneous section discusses listed bodies, and briefly outlines the need for fuel & energy reference tables.  There are examples of a scope, and units, table within [_data](_data).
+There are separate sections for mileage and premises; the miscellaneous section discusses listed bodies, and briefly outlines the need for fuel & energy reference tables.  There are examples of a scope, and units, table within [_data](https://github.com/prml-0003/prml-0003.github.io/tree/master/_data).
 
 <br>
 <br>

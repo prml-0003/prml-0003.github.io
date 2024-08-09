@@ -90,8 +90,8 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
     <tr><td>Vehicle</td>
         <td>nominal number</td>
         <td>A nominal number representing the identification code of a vehicle type, from a vehicles table. Example: 
-            <ul><li><a href="../../_data/specific_vehicles.csv">specific_vehicles</a></li>
-                <li><a href="../../_data/specific_vehicle_groups.csv">specific_vehicles_group</a></li></ul></td></tr>
+            <ul><li><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicles.csv" target="_blank">specific_vehicles</a></li>
+                <li><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicle_groups.csv" target="_blank">specific_vehicles_group</a></li></ul></td></tr>
     <tr><td>Scheduled</td>
         <td>boolean</td>
         <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
