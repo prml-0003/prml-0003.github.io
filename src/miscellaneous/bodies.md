@@ -35,11 +35,11 @@ The listed bodies that <a href="https://www.legislation.gov.uk/ssi/2015/347/cont
 * Police
 * Others
 
-A plausible set of attributes in a table named `bodies` is
+**A plausible set of attributes** in a table named **bodies** is
 
 * body_name, e.g., Scottish Ambulance Service Board
 * body_id, e.g., 3999131
-* body_type_id, i.e., 6113 for National Health Service bodies [linked to table: body_types]
+* body_type_id, e.g., 6113 for National Health Service bodies [linked to a table named: body_types]
 
 Each instance of the bodies should represent a distinct body.  In addition to the order's explicitly named bodies, ensure that the inventory of bodies includes
 
@@ -60,12 +60,12 @@ A body type may have its own classifications, e.g., Scotland's National Health S
 * Special
 * Public
 
-Hence, a National Health Service `bodies` table might be expanded
+Consequently, the aforementioned **bodies** table might be expanded.  The **plausible set of attributes** being
 
 * body_name, e.g., Scottish Ambulance Service Board
 * body_id, e.g., 3999131
-* body_type_id, i.e., 6113 for National Health Service bodies [linked to table: body_type]
-* body_type_class_id, 2 for Special [linked to table: body_type_classes]
+* body_type_id, e.g., 6113 for National Health Service bodies [linked to a table named: body_type]
+* body_type_class_id, e.g., 2 for Special [linked to a table named: body_type_classes]
 
 <br>
 <br>
