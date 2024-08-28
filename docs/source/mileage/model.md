@@ -1,27 +1,8 @@
----
-layout: default
-title: Preliminary Attributes
-parent: Mileage
-nav_order: 1
-external_js:
-- https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
-custom_js:
-- latex
----
-
-# Preliminary Attributes
-{: .no_toc }
-
 <br>
 
-## Table of contents
-{: .no_toc .text-delta }
+# Preliminary Attributes
 
-1. TOC
-{:toc}
-
----
-
+<br>
 
 ## Plausible Attributes
 
@@ -151,6 +132,12 @@ The business value is
 
 Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
+
+<br>
+<br>
+
+<br>
+<br>
 
 <br>
 <br>
