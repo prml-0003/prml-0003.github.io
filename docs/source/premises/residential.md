@@ -1,8 +1,5 @@
-<br>
 
 # Homeworking
-
-<br>
 
 ## Plausible Attributes
 
