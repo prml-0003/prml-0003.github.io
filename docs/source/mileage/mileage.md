@@ -1,15 +1,24 @@
----
-layout: default
-title: Mileage
-nav_order: 2
-has_children: true
-permalink: /src/mileage
-custom_js:
-- latex
----
+<br>
 
 # Mileage
 
-{: .fs-6 .fw-300 }
+<br>
 
+```{toctree}
+:glob:
+
+model
+addendum
+```
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
 <br>
