@@ -1,27 +1,8 @@
----
-layout: default
-title: Addendum
-parent: Mileage
-nav_order: 2
-external_css:
-- https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
-custom_js:
-- latex
----
-
-# Addendum
-{: .no_toc }
-
 <br>
 
-## Table of contents
-{: .no_toc .text-delta }
+# Addendum
 
-1. TOC
-{:toc}
-
----
-
+<br>
 
 ## The Fields
 
@@ -50,7 +31,14 @@ At present, each record of the mileage data set summarises
     <tr><td>Journey Details</td><td>A journey's details.  The text is akin to free text, albeit it seems a few national health service organisations might each have an underlying <i>journey details recording pattern</i>.</td></tr>
 </table>
 
+<br>
+<br>
 
+<br>
+<br>
 
+<br>
+<br>
 
-
+<br>
+<br>
