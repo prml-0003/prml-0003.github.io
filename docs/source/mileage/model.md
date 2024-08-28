@@ -63,7 +63,7 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
         <td>A geographic code that does not betray sensitive details</td></tr>
     <tr><td>Trip Stops</td>
         <td></td>
-        <td>Example: {1: &ctdot;, 2: &ctdot;, &rarr;}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis for cost & emission minimisation purposes.</td></tr>
+        <td>Example: <ul class="disc"><li class="disc">{1: &ctdot;, 2: &ctdot;, &rarr;}</li></ul>wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis for cost & emission minimisation purposes.</td></tr>
     <tr><td>Travel Class</td>
         <td>nominal number</td>
         <td>A nominal number representing the identification code of a travel class. The plausible classes being business travel, in-patient travel, out-patient travel, staff commute.</td></tr>
@@ -73,8 +73,8 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
     <tr><td>Vehicle</td>
         <td>nominal number</td>
         <td>A nominal number representing the identification code of a vehicle type, from a vehicles table. Example: 
-            <ul><li><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicles.csv" target="_blank">specific_vehicles</a></li>
-                <li><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicle_groups.csv" target="_blank">specific_vehicles_group</a></li></ul></td></tr>
+            <ul class="disc"><li class="disc"><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicles.csv" target="_blank">specific_vehicles</a></li>
+                <li class="disc"><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicle_groups.csv" target="_blank">specific_vehicles_group</a></li></ul></td></tr>
     <tr><td>Scheduled</td>
         <td>boolean</td>
         <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
@@ -141,7 +141,11 @@ A geographic code decision is required.
 
 The business value is
 
-> $\textnormal{business mileage} \times rate$ where $rate \in [\textnormal{business rate low}, \quad \textnormal{business rate high}]$
+> $\textnormal{business mileage} \times rate$ 
+
+where
+
+> $rate \in [\textnormal{business rate low}, \quad \textnormal{business rate high}]$
 
 Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
