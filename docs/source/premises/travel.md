@@ -16,7 +16,7 @@
         <th>field</th><th>unit of<br>measure</th><th>notes</th></tr>
     </thead>
     <tr><td>Business Travel Accommodation Type Code</td>
-        <td>nominal number</td><td>Vis-à-vis a <b>business travel accommodation type</b> table, which includes a unique identification code for each. Example:<br>{0: hotel, 1: bed & breakfast, $\ldots$}</td></tr>
+        <td>nominal number</td><td>Vis-à-vis a <b>business travel accommodation type</b> table, which includes a unique identification code for each. Example:<br>{0: hotel, 1: bed & breakfast, &ctdot;}</td></tr>
     <tr><td>Start Date</td>
         <td>date</td><td>The check-in date.</td></tr>
     <tr><td>End Date</td>
@@ -29,7 +29,9 @@
 
 <br>
 
-The unit of measure of the $CO_{2}$ emission factor, for travel accommodation, is  <i>kg $CO_{2}$e (kilogrammes in equivalent carbon dioxide) per room per night</i>.
+The unit of measure of the $CO_{2}$ emission factor, for travel accommodation, is  <i>kg $CO_{2}$e (kilogrammes in equivalent carbon dioxide) per room per night</i>.  Therefore, the number of nights must be determinable via the data.  In this case
+
+> *number of nights* $=$ *end date* - *start date*
 
 <br>
 <br>
