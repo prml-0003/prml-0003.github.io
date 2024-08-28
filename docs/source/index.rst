@@ -6,7 +6,7 @@ Emissions
 
 .. container:: .large
 
-   Preliminary data models notes vis-à-vis emissions.
+   Preliminary data models notes vis-à-vis emissions; in aid of continuous monitoring & assessment, trend analysis, forecasting for intervention decisions, etc.
 
 
 .. raw:: html
