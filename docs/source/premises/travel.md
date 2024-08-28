@@ -1,12 +1,9 @@
-<br>
 
 # Business Travel
 
-<br>
-
 ## Plausible Attributes
 
-<table style="width: 95%; margin-left: 35px; font-size: 90%">
+<table style="width: 95%; margin-left: 35px; font-size: 95%">
     <colgroup>
         <col span="1" style="width: 13.5%;">
         <col span="1" style="width: 11.5%;">
