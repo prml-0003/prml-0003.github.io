@@ -1,8 +1,5 @@
-<br>
 
 # Preliminary Attributes
-
-<br>
 
 ## Plausible Attributes
 
@@ -10,7 +7,7 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
 
 <br>
 
-<table style="width: 95%; margin-left: 35px; font-size: 90%">
+<table style="width: 95%; margin-left: 35px; font-size: 95%">
     <colgroup>
         <col span="1" style="width: 13.5%;">
         <col span="1" style="width: 11.5%;">
