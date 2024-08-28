@@ -1,15 +1,24 @@
----
-layout: default
-title: Miscellaneous
-nav_order: 4
-has_children: true
-permalink: /src/miscellaneous
----
+<br>
 
-# Future
+# Miscellaneous
 
-A set of conceptual data model proposals in aid of upcoming/future continuous assessment, trend analysis, forecasting & intervention, etc., aims.
+More conceptual data model proposals in aid of future continuous assessment, trend analysis, forecasting & intervention, etc., aims.
 
-{: .fs-6 .fw-300 }
+```{toctree}
+:glob:
 
+fe
+bodies
+```
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
 <br>
