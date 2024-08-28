@@ -54,22 +54,39 @@ Each instance of the bodies should represent a distinct body.  In addition to th
     <ul class="circle"><li class="circle">Integration Joint Boards: REF. [9.2](https://www.legislation.gov.uk/asp/2014/9/section/9) of  [Public Bodies (Joint Working) (Scotland) Act 2014](https://www.legislation.gov.uk/asp/2014/9/contents)</li></ul>
 </ul>
 
+<br>
+
 ## The Listed Bodies: Scotland's National Health Service
 
 A body type may have its own classifications, e.g., Scotland's National Health Service organisations fall into one of the following health body classes
 
-<ul>
-  <li>Regional</li>
-  <li>Special</li>
-  <li>Public</li>
+<ul class="disc">
+  <li class="disc">Regional</li>
+  <li class="disc">Special</li>
+  <li class="disc">Public</li>
 </ul>
 
 Consequently, the aforementioned **bodies** table might be expanded.  The **plausible set of attributes** being
 
-* body_name, e.g., Scottish Ambulance Service Board
-* body_id, e.g., 3999131
-* body_type_id, e.g., 6113 for National Health Service bodies [linked to a table named: body_type]
-* body_type_class_id, e.g., 2 for Special [linked to a table named: body_type_classes]
+
+<table style="width: 95%; margin-left: 35px; font-size: 95%">
+    <colgroup>
+        <col span="1" style="width: 13.5%;">
+        <col span="1" style="width: 11.5%;">
+        <col span="1" style="width: 60.0%;">
+    </colgroup>
+    <thead><tr style="text-align: left">
+        <th>field</th><th>unit of<br>measure</th><th>notes</th></tr>
+    </thead>
+    <tr><td>body_name</td>
+        <td>unitless</td><td>Scottish Ambulance Service Board</td></tr>
+    <tr><td>body_id</td>
+        <td>nominal number</td><td>A body's unique identification code, e.g., 3999131.</td></tr>
+    <tr><td>body_type_id</td>
+        <td>nominal number</td><td>The unique identification code of a body type, e.g., 6113 for National Health Service bodies; enables linking to a table of body types.</td></tr>
+    <tr><td>body_type_class_id</td>
+        <td>nominal number</td><td>The unique identification code of a body type class, e.g., 1 for <b>regional</b> national health service bodey; enables linking to a table of body type classes.</td></tr>
+</table>
 
 <br>
 <br>
