@@ -138,7 +138,7 @@ html_theme_options = {
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
-    'github_url': 'https://www.github.com/prml-0003',
+    'github_url': 'https://github.com/prml-0003/prml-0003.github.io',
     'logo_mobile': '_static/32x32.svg'
 }
 
@@ -169,13 +169,13 @@ html_context = {
     'landing_page': {
         'menu': [
             {'title': 'Parent',
-             'url': 'https://github.com/prml-0003'},
-            {'title': 'Introduction',
-             'url': 'https://prml-0003.github.io'}
+             'url': 'https://github.com/theartificialintelligenceunit'},
+            {'title': 'Summary',
+             'url': 'https://prml-0003.github.io/docs/build/html/summary/summary.html'}
         ]
     },
     'display_github': True,
-    'github_repo': 'prml-0003',
+    'github_repo': 'prml-0003.github.io',
     'conf_py_path': 'develop/docs/source/'
 }
 
