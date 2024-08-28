@@ -1,8 +1,5 @@
-<br>
 
 # Mileage
-
-<br>
 
 ```{toctree}
 :glob:
