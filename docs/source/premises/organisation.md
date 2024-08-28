@@ -1,8 +1,5 @@
-<br>
 
 # Organisations
-
-<br>
 
 ## Plausible Attributes
 
