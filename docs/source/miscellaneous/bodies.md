@@ -1,27 +1,8 @@
----
-layout: default
-title: Listed Bodies
-parent: Miscellaneous
-nav_order: 2
-external_css:
-- https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
-custom_js:
-- latex
----
-
-# Listed Bodies
-{: .no_toc }
-
 <br>
 
-## Table of contents
-{: .no_toc .text-delta }
+# Listed Bodies
 
-1. TOC
-{:toc}
-
----
-
+<br>
 
 ## The Listed Bodies
 
@@ -66,6 +47,12 @@ Consequently, the aforementioned **bodies** table might be expanded.  The **plau
 * body_id, e.g., 3999131
 * body_type_id, e.g., 6113 for National Health Service bodies [linked to a table named: body_type]
 * body_type_class_id, e.g., 2 for Special [linked to a table named: body_type_classes]
+
+<br>
+<br>
+
+<br>
+<br>
 
 <br>
 <br>
