@@ -21,7 +21,3 @@ vehicle_code,vehicle_name,vehicle_group_code
 20,van - class i (up to 1.305 tonnes),7
 21,van - class ii (1.305 to 1.74 tonnes),7
 22,van - class iii (1.74 to 3.5 tonnes),7
-23,vans - average (up to 3.5 tonnes),7
-24,vans - class i (up to 1.305 tonnes),7
-25,vans - class ii (1.305 to 1.74 tonnes),7
-26,vans - class iii (1.74 to 3.5 tonnes),7
