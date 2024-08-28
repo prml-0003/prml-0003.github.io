@@ -6,11 +6,11 @@
 
 ## Plausible Attributes
 
-<table style="width: 65%;">
+<table style="width: 95%; margin-left: 35px; font-size: 90%">
     <colgroup>
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 41.0%;">
+        <col span="1" style="width: 13.5%;">
+        <col span="1" style="width: 11.5%;">
+        <col span="1" style="width: 60.0%;">
     </colgroup>
     <thead><tr style="text-align: left">
         <th>field</th><th>unit of<br>measure</th><th>notes</th></tr>
