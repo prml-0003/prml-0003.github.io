@@ -1,0 +1,332 @@
+
+	
+
+<!DOCTYPE html>
+<html class="writer-html5 light" lang="en" >
+<head>
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Preliminary Attributes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="mileage/model.html" />
+<meta property="og:description" content="Plausible Attributes: Excluding taxi, ferry, & flight trips, which should each have their own almost similar tables, but adjusted to reflect their disaccordant attributes. For example, a ferry tabl..." />
+<meta name="description" content="Plausible Attributes: Excluding taxi, ferry, & flight trips, which should each have their own almost similar tables, but adjusted to reflect their disaccordant attributes. For example, a ferry tabl..." />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Preliminary Attributes &mdash; CLIMATE &amp; SUSTAINABILITY</title>
+		  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8d216cef" />
+		  <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=cf2327ab" />
+		  <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+		  <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=5ae659b7" />
+		  <link rel="stylesheet" type="text/css" href="../_static/css/generic.css?v=aeaa6835" />
+		  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn" />
+		  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine" />
+
+	
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+		<link rel="canonical" href="https://prml-0003.github.io/mileage/model.html"/>
+			
+				<script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+					<script src="../_static/jquery.js?v=5d32c60e"></script>
+					<script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+					<script src="../_static/documentation_options.js?v=5929fcd5"></script>
+					<script src="../_static/doctools.js?v=9a2dae69"></script>
+					<script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+					<script src="../_static/design-tabs.js?v=f930bc37"></script>
+					<script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+					<script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+					<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+					<script src="https://code.highcharts.com/stock/highstock.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/data.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+					<script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+					<script src="https://code.highcharts.com/highcharts.js"></script>
+					<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+			
+			
+			<script src="../_static/js/theme.js"></script>
+		<link rel="index" title="Index" href="../genindex.html" />
+		<link rel="search" title="Search" href="../search.html" />
+		<link rel="next" title="Addendum" href="addendum.html" />
+		<link rel="prev" title="Mileage" href="mileage.html" /> 
+</head>
+<body class="wy-body-for-nav">
+
+
+	 
+	<div class="wy-grid-for-nav">
+		
+		<nav data-toggle="wy-nav-shift" class="wy-nav-side">
+		  <div class="wy-side-scroll">
+			<div class="wy-side-nav-search" >
+
+			  
+			  
+			  <a href="../index.html" class="icon icon-home">
+				
+			  </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+			</div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+				  <p class="caption" role="heading"><span class="caption-text">SUMMARY</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../summary/summary.html">Summary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DETAILS</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="mileage.html">Mileage</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Preliminary Attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#plausible-attributes">Plausible Attributes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-trip">A Trip</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#considerations">Considerations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#decision">Decision</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#business-rate-value">Business Rate &amp; Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="addendum.html">Addendum</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../premises/premises.html">Premises</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../miscellaneous/miscellaneous.html">Miscellaneous</a></li>
+</ul>
+
+			</div>
+		  </div>
+		</nav>
+
+		<section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+				  <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+				  <a href="../index.html"></a>
+			  </nav>
+
+
+			<div class="wy-nav-content">
+				
+				<div class="rst-content">
+				
+					
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+	<ul class="wy-breadcrumbs">
+		
+			
+			<li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+			
+				<li class="breadcrumb-item"><a href="mileage.html">Mileage</a> ⁄&nbsp;</li>
+			
+			 <li class="breadcrumb-item active">Preliminary Attributes</li>
+			
+		
+		  <li class="wy-breadcrumbs-aside">
+				  <a href="https://github.com/prml-0003.github.io/blob/develop/docs/source/mileage/model.md" class="fa fa-github"></a>
+		  </li>
+	</ul>
+	<hr/>
+
+</div>
+					<div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+					 <div itemprop="articleBody">
+						
+  <section class="tex2jax_ignore mathjax_ignore" id="preliminary-attributes">
+<h1>Preliminary Attributes<a class="headerlink" href="#preliminary-attributes" title="Link to this heading">¶</a></h1>
+<section id="plausible-attributes">
+<h2>Plausible Attributes<a class="headerlink" href="#plausible-attributes" title="Link to this heading">¶</a></h2>
+<p>Excluding taxi, ferry, &amp; flight trips, which should each have their own almost similar tables, but adjusted to reflect their disaccordant attributes.  For example, a ferry table might have a passenger type field with the options: car, foot, freight driver, coach, cyclist.</p>
+<br>
+<table style="width: 95%; margin-left: 35px; font-size: 95%">
+    <colgroup>
+        <col span="1" style="width: 13.5%;">
+        <col span="1" style="width: 11.5%;">
+        <col span="1" style="width: 60.0%;">
+    </colgroup>
+    <thead><tr style="text-align: left">
+        <th>name</th><th>unit of<br>measure</th><th>notes</th></tr>
+    </thead>
+    <tr><td>Area Pay Division</td>
+        <td>unitless</td>
+        <td>Awaiting details.</td></tr>
+    <tr><td>Claim Line Start</td>
+        <td>date</td>
+        <td>Trip start date; yyyy-mm-dd</td></tr>
+    <tr><td>Claim Line End</td>
+        <td>date</td>
+        <td>Trip end date; yyyy-mm-dd</td></tr>
+    <tr><td>Engine Size</td>
+        <td>cubic centimetres</td>
+        <td>The size of the vehicle's engine.</td></tr>
+    <tr><td>Fuel Type</td>
+        <td></td>
+        <td>Vis-à-vis fuel/energy fact table.</td></tr>
+    <tr><td>Business Mileage</td>
+        <td>miles</td>
+        <td>Miles travelled.</td></tr>
+    <tr><td>Business Rate High</td>
+        <td>pence per mile</td>
+        <td>The upper boundary of the mileage rate.</td></tr>
+    <tr><td>Business Rate Low</td>
+        <td>pence per mile</td>
+        <td>The lower boundary of the mileage rate.</td></tr>
+    <tr><td>Business Rate Paid</td>
+        <td>pence per mile</td>
+        <td>The actual rate paid.</td></tr>
+    <tr><td>Business Value</td>
+        <td>pound sterling</td>
+        <td>The amount paid; decimal.</td></tr>
+    <tr><td>Commute Miles<br>Not Undertaken</td>
+        <td>miles</td>
+        <td>Definition: Approach <abbr title="National Health Service">NHS</abbr> Sustainability Action</td></tr>
+    <tr><td>Overtime Mileage</td>
+        <td>miles</td>
+        <td>Definition: Approach <abbr title="National Health Service">NHS</abbr> Sustainability Action</td></tr>
+    <tr><td>Trip Start Code</td>
+        <td></td>
+        <td>A geographic code that does not betray sensitive details</td></tr>
+    <tr><td>Trip End Code</td>
+        <td></td>
+        <td>A geographic code that does not betray sensitive details</td></tr>
+    <tr><td>Trip Stops</td>
+        <td></td>
+        <td>Example: <ul class="disc"><li class="disc">{1: &ctdot;, 2: &ctdot;, &rarr;}</li></ul>wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis for cost & emission minimisation purposes.</td></tr>
+    <tr><td>Travel Class</td>
+        <td>nominal number</td>
+        <td>A nominal number representing the identification code of a travel class. The plausible classes being business travel, in-patient travel, out-patient travel, staff commute.</td></tr>
+    <tr><td>Transport Class</td>
+        <td>nominal number</td>
+        <td>Whereby a nominal number is the unique identification code of transport class.  The plausible classes are public, fleet, private, hired</td></tr>
+    <tr><td>Vehicle</td>
+        <td>nominal number</td>
+        <td>A nominal number representing the identification code of a vehicle type, from a vehicles table. Example: 
+            <ul class="disc"><li class="disc"><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicles.csv" target="_blank">specific_vehicles</a></li>
+                <li class="disc"><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicle_groups.csv" target="_blank">specific_vehicles_group</a></li></ul></td></tr>
+    <tr><td>Scheduled</td>
+        <td>boolean</td>
+        <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
+</table>
+<br>
+<p>Herein, the unit of measure of the <span class="math notranslate nohighlight">\(CO_{2}\)</span> (Carbon Dioxide) emissions is grammes of carbon dioxide per kilometre.</p>
+<br>
+<br>
+</section>
+<section id="a-trip">
+<h2>A Trip<a class="headerlink" href="#a-trip" title="Link to this heading">¶</a></h2>
+<p>The accurate recording of</p>
+<ul class="disc">
+  <li class="disc">engine size</li>
+  <li class="disc">fuel type</li>
+  <li class="disc">carbon dioxide emissions</li>
+</ul>
+<p>requires recording data by trip, not journey.  In brief</p>
+<ul class="disc">
+  <li class="disc">A journey consists of one or more distinct trips.</li>
+  <li class="disc">A distinct trip is a trip from <b>A</b> &rarr; <b>B</b> via the same land, air, or sea vehicle.</li>
+  <li class="disc">Each <abbr title="record, row">instance</abbr> of a mileage data set should represent a distinct trip, taken/started on a specific date.</li>
+  <li class="disc">Ensure each instance, i.e., each distinct trip, of a mileage data set has a journey identification code;
+    <ul class="circle">
+      <li class="circle">Each journey must have a unique code.</li>
+      <li class="circle">Trips of the same journey must the same journey identification code</li>
+    </ul>
+  </li>
+  <li class="disc">Include
+    <ul class="circle">
+      <li class="circle">trip start code [a geographic code that does not betray sensitive details]</li>
+      <li class="circle">trip end code [a geographic code that does not betray sensitive details]</li>
+    </ul>
+  </li>
+</ul>
+<br>
+<section id="considerations">
+<h3>Considerations<a class="headerlink" href="#considerations" title="Link to this heading">¶</a></h3>
+<p>A distinct trip via the same vehicle might be a trip consisting of one or more stops, sometimes returning to the starting point, i.e., <span class="math notranslate nohighlight">\(A \rightarrow \ldots \rightarrow B\)</span>.  Hence, the field</p>
+<blockquote>
+<div><p>trip stops {1: <span class="math notranslate nohighlight">\(\ldots\)</span>, 2: <span class="math notranslate nohighlight">\(\ldots\)</span>}</p>
+</div></blockquote>
+<p>might help.  Herein, each number is an ordinal number, and each ellipsis represents the geographic code of the stop.</p>
+<br>
+</section>
+<section id="decision">
+<h3>Decision<a class="headerlink" href="#decision" title="Link to this heading">¶</a></h3>
+<p>A geographic code decision is required.</p>
+<br>
+<br>
+</section>
+</section>
+<section id="business-rate-value">
+<h2>Business Rate &amp; Value<a class="headerlink" href="#business-rate-value" title="Link to this heading">¶</a></h2>
+<p>The business value is</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\textnormal{business mileage} \times rate\)</span></p>
+</div></blockquote>
+<p>where</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(rate \in [\textnormal{business rate low}, \quad \textnormal{business rate high}]\)</span></p>
+</div></blockquote>
+<p>Basically, the rate might be any value between the <em>business rate low</em> &amp; <em>business rate high</em> limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/treemap.js"></script>
+<script src="https://code.highcharts.com/modules/treegraph.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+</section>
+</section>
+
+
+					 </div>
+					 
+					</div>
+					<footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="addendum.html" class="btn btn-neutral float-right" title="Addendum" accesskey="n" rel="next">Next &nbsp;<b>⟶</b></a>
+      
+      
+        <a href="mileage.html" class="btn btn-neutral float-left" title="Mileage" accesskey="p" rel="prev"><b>⟵</b>&nbsp; Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, greyhypotheses.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+	
+
+	<script type="text/javascript">
+			jQuery(function () {
+					SphinxRtdTheme.Navigation.enable(true);
+			});
+	</script> 
+
+ 
+</body>	
+</html>
