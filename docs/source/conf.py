@@ -145,8 +145,7 @@ html_theme_options = {
 html_static_path: list[str] = ['_static']
 
 html_css_files: list[str] = [
-    'css/generic.css',
-    'css/custom.css',
+    'css/custom.css', 'css/generic.css',
     'https://fonts.googleapis.com/css?family=Vollkorn',
     'https://fonts.googleapis.com/css?family=Tangerine'
 ]
