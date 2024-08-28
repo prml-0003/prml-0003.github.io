@@ -1,25 +1,8 @@
----
-layout: default
-title: Of Organisations
-parent: Premises
-nav_order: 1
-custom_js:
-- latex
----
-
-# Of Organisations
-{: .no_toc }
-
 <br>
 
-## Table of contents
-{: .no_toc .text-delta }
+# Organisations
 
-1. TOC
-{:toc}
-
----
-
+<br>
 
 ## Plausible Attributes
 
@@ -47,6 +30,12 @@ At least:
     <tr><td>Interval End</td>
         <td>datetime</td><td>Energy meters normally record energy usage at intervals.  This denotes interval end datetime.</td></tr>
 </table>
+
+<br>
+<br>
+
+<br>
+<br>
 
 <br>
 <br>
