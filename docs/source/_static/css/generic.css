@@ -33,11 +33,10 @@
     margin-top: 25px;
 }
 
-/*
-.wy-breadcrumbs::before {
-	content: url('../16x16.svg');
+td,
+th {
+    padding: 5px;
 }
-*/
 
 li.disc {
     margin-top: 2px;
