@@ -1,8 +1,5 @@
-<br>
 
 # Listed Bodies
-
-<br>
 
 ## The Listed Bodies
 
@@ -51,7 +48,7 @@ Each instance of the bodies should represent a distinct body.  In addition to th
   </ul>  
 <li class="disc">Educational Institutions</li>
 <li class="disc">Others</li>
-    <ul class="circle"><li class="circle">Integration Joint Boards: REF. [9.2](https://www.legislation.gov.uk/asp/2014/9/section/9) of  [Public Bodies (Joint Working) (Scotland) Act 2014](https://www.legislation.gov.uk/asp/2014/9/contents)</li></ul>
+    <ul class="circle"><li class="circle">Integration Joint Boards: REF. <a href="https://www.legislation.gov.uk/asp/2014/9/section/9" target="_blank">9.2</a> of  <a href="https://www.legislation.gov.uk/asp/2014/9/contents">Public Bodies (Joint Working) (Scotland) Act 2014</a></li></ul>
 </ul>
 
 <br>
@@ -67,7 +64,6 @@ A body type may have its own classifications, e.g., Scotland's National Health S
 </ul>
 
 Consequently, the aforementioned **bodies** table might be expanded.  The **plausible set of attributes** being
-
 
 <table style="width: 95%; margin-left: 35px; font-size: 95%">
     <colgroup>
