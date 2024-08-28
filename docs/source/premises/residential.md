@@ -1,24 +1,8 @@
----
-layout: default
-title: Homeworking
-parent: Premises
-nav_order: 1
-custom_js:
-- latex
----
-
-# Homeworking
-{: .no_toc }
-
 <br>
 
-## Table of contents
-{: .no_toc .text-delta }
+# Homeworking
 
-1. TOC
-{:toc}
-
----
+<br>
 
 ## Plausible Attributes
 
@@ -38,6 +22,12 @@ custom_js:
     <tr><td>Location</td>
         <td></td><td>A geographic code that does not betray sensitive details.</td></tr>
 </table>
+
+<br>
+<br>
+
+<br>
+<br>
 
 <br>
 <br>
