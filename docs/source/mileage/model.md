@@ -1,37 +1,17 @@
----
-layout: default
-title: Preliminary Attributes
-parent: Mileage
-nav_order: 1
-external_js:
-- https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
-custom_js:
-- latex
----
 
 # Preliminary Attributes
-{: .no_toc }
-
-<br>
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 
 ## Plausible Attributes
 
 Excluding taxi, ferry, & flight trips, which should each have their own almost similar tables, but adjusted to reflect their disaccordant attributes.  For example, a ferry table might have a passenger type field with the options: car, foot, freight driver, coach, cyclist.
 
-<table style="width: 65%;">
+<br>
+
+<table style="width: 95%; margin-left: 35px; font-size: 95%">
     <colgroup>
-        <col span="1" style="width: 7.5%;">
-        <col span="1" style="width: 6.0%;">
-        <col span="1" style="width: 36.5%;">
+        <col span="1" style="width: 13.5%;">
+        <col span="1" style="width: 11.5%;">
+        <col span="1" style="width: 60.0%;">
     </colgroup>
     <thead><tr style="text-align: left">
         <th>name</th><th>unit of<br>measure</th><th>notes</th></tr>
@@ -80,7 +60,7 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
         <td>A geographic code that does not betray sensitive details</td></tr>
     <tr><td>Trip Stops</td>
         <td></td>
-        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis for cost & emission minimisation purposes.</td></tr>
+        <td>Example: <ul class="disc"><li class="disc">{1: &ctdot;, 2: &ctdot;, &rarr;}</li></ul>wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis for cost & emission minimisation purposes.</td></tr>
     <tr><td>Travel Class</td>
         <td>nominal number</td>
         <td>A nominal number representing the identification code of a travel class. The plausible classes being business travel, in-patient travel, out-patient travel, staff commute.</td></tr>
@@ -90,13 +70,14 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
     <tr><td>Vehicle</td>
         <td>nominal number</td>
         <td>A nominal number representing the identification code of a vehicle type, from a vehicles table. Example: 
-            <ul><li><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicles.csv" target="_blank">specific_vehicles</a></li>
-                <li><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicle_groups.csv" target="_blank">specific_vehicles_group</a></li></ul></td></tr>
+            <ul class="disc"><li class="disc"><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicles.csv" target="_blank">specific_vehicles</a></li>
+                <li class="disc"><a href="https://github.com/prml-0003/prml-0003.github.io/blob/master/_data/specific_vehicle_groups.csv" target="_blank">specific_vehicles_group</a></li></ul></td></tr>
     <tr><td>Scheduled</td>
         <td>boolean</td>
         <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
 </table>
 
+<br>
 
 Herein, the unit of measure of the $CO_{2}$ (Carbon Dioxide) emissions is grammes of carbon dioxide per kilometre.
 
@@ -107,21 +88,32 @@ Herein, the unit of measure of the $CO_{2}$ (Carbon Dioxide) emissions is gramme
 
 The accurate recording of
 
-* engine size
-* fuel type
-* carbon dioxide emissions
+<ul class="disc">
+  <li class="disc">engine size</li>
+  <li class="disc">fuel type</li>
+  <li class="disc">carbon dioxide emissions</li>
+</ul>
 
 requires recording data by trip, not journey.  In brief
 
-* A journey consists of one or more distinct trips.
-* A distinct trip is a trip from $A \rightarrow B$ via the same land, air, or sea vehicle.
-* Each <abbr title="record, row">instance</abbr> of a mileage data set should represent a distinct trip, taken/started on a specific date.
-* Ensure each instance, i.e., each distinct trip, of a mileage data set has a journey identification code;
-   * Each journey must have a unique code.
-   * Trips of the same journey must the same journey identification code
-* Include
-  * trip start code [a geographic code that does not betray sensitive details]
-  * trip end code [a geographic code that does not betray sensitive details]
+<ul class="disc">
+  <li class="disc">A journey consists of one or more distinct trips.</li>
+  <li class="disc">A distinct trip is a trip from <b>A</b> &rarr; <b>B</b> via the same land, air, or sea vehicle.</li>
+  <li class="disc">Each <abbr title="record, row">instance</abbr> of a mileage data set should represent a distinct trip, taken/started on a specific date.</li>
+  <li class="disc">Ensure each instance, i.e., each distinct trip, of a mileage data set has a journey identification code;
+    <ul class="circle">
+      <li class="circle">Each journey must have a unique code.</li>
+      <li class="circle">Trips of the same journey must the same journey identification code</li>
+    </ul>
+  </li>
+  <li class="disc">Include
+    <ul class="circle">
+      <li class="circle">trip start code [a geographic code that does not betray sensitive details]</li>
+      <li class="circle">trip end code [a geographic code that does not betray sensitive details]</li>
+    </ul>
+    
+  </li>
+</ul>
 
 <br>
 
@@ -129,7 +121,7 @@ requires recording data by trip, not journey.  In brief
 
 A distinct trip via the same vehicle might be a trip consisting of one or more stops, sometimes returning to the starting point, i.e., $A \rightarrow \ldots \rightarrow B$.  Hence, the field
 
-* trip stops {1: $\ldots$, 2: $\ldots$}
+> trip stops {1: $\ldots$, 2: $\ldots$}
 
 might help.  Herein, each number is an ordinal number, and each ellipsis represents the geographic code of the stop.  
 
@@ -139,7 +131,6 @@ might help.  Herein, each number is an ordinal number, and each ellipsis represe
 
 A geographic code decision is required.
 
-
 <br>
 <br>
 
@@ -147,10 +138,19 @@ A geographic code decision is required.
 
 The business value is
 
-> $\textnormal{business mileage} \times rate$ where $rate \in \[\textnormal{business rate low}, \quad \textnormal{business rate high}\]$
+> $\textnormal{business mileage} \times rate$ 
+
+where
+
+> $rate \in [\textnormal{business rate low}, \quad \textnormal{business rate high}]$
 
 Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
+<br>
+<br>
+
+<br>
+<br>
 
 <br>
 <br>
