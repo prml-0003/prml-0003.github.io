@@ -1,17 +1,57 @@
-.. Emissions documentation master file, created by
-   sphinx-quickstart on Wed Aug 28 00:07:36 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. image:: _static/logo.svg
 
-Emissions documentation
-=======================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Emissions
+=========
+
+.. container:: .large
+
+   Preliminary data models notes vis-à-vis emissions.
+
+
+.. raw:: html
+
+   <br>
+
+
+.. container:: .buttons
+
+   `Introduction <introduction/introduction.html>`_
+   `GitHub <https://github.com/prml-0003/prml-0003.github.io>`_
+
+
+.. image:: https://img.shields.io/github/v/tag/prml-0003/prml-0003.github.io?label=Release&style=flat-square&labelColor=292b2e&color=292b2e
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: SUMMARY
+   :hidden:
 
+   summary/summary
+
+.. toctree::
+   :maxdepth: 3
+   :caption: DETAILS
+   :hidden:
+
+   mileage/mileage
+   premises/premises
+   miscellaneous/miscellaneous
+
+.. raw:: html
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+..
+   Comment
+   :ref:`genindex`
+   :ref:`search`
