@@ -1,25 +1,8 @@
----
-layout: default
-title: Business Travel
-parent: Premises
-nav_order: 2
-custom_js:
-- latex
----
-
-# Business Travel
-{: .no_toc }
-
 <br>
 
-## Table of contents
-{: .no_toc .text-delta }
+# Business Travel
 
-1. TOC
-{:toc}
-
----
-
+<br>
 
 ## Plausible Attributes
 
@@ -44,8 +27,13 @@ custom_js:
         <td>degree</td><td></td></tr>
 </table>
 
-
 The unit of measure of the $CO_{2}$ emission factor, for travel accommodation, is  <i>kg $CO_{2}$e (kilogrammes in equivalent carbon dioxide) per room per night</i>.
+
+<br>
+<br>
+
+<br>
+<br>
 
 <br>
 <br>
