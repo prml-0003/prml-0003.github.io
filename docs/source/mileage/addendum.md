@@ -1,14 +1,11 @@
-<br>
 
 # Addendum
-
-<br>
 
 ## The Fields
 
 At present, each record of the mileage data set summarises
 
-<table style="width: 95%; margin-left: 35px; font-size: 90%">
+<table style="width: 95%; margin-left: 35px; font-size: 95%">
     <colgroup>
         <col span="1" style="width: 13.5%;">
         <col span="1" style="width: 60.0%;">
