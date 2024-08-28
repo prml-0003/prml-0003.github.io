@@ -8,11 +8,13 @@
 
 Excluding taxi, ferry, & flight trips, which should each have their own almost similar tables, but adjusted to reflect their disaccordant attributes.  For example, a ferry table might have a passenger type field with the options: car, foot, freight driver, coach, cyclist.
 
-<table style="width: 95%">
+<br>
+
+<table style="width: 95%; margin-left: 35px; font-size: 90%">
     <colgroup>
         <col span="1" style="width: 13.5%;">
-        <col span="1" style="width: 8.5%;">
-        <col span="1" style="width: 63.0%;">
+        <col span="1" style="width: 11.5%;">
+        <col span="1" style="width: 60.0%;">
     </colgroup>
     <thead><tr style="text-align: left">
         <th>name</th><th>unit of<br>measure</th><th>notes</th></tr>
@@ -78,6 +80,7 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
         <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
 </table>
 
+<br>
 
 Herein, the unit of measure of the $CO_{2}$ (Carbon Dioxide) emissions is grammes of carbon dioxide per kilometre.
 
@@ -88,31 +91,31 @@ Herein, the unit of measure of the $CO_{2}$ (Carbon Dioxide) emissions is gramme
 
 The accurate recording of
 
-<ul>
-  <li>engine size</li>
-  <li>fuel type</li>
-  <li>carbon dioxide emissions</li>
+<ul class="disc">
+  <li class="disc">engine size</li>
+  <li class="disc">fuel type</li>
+  <li class="disc">carbon dioxide emissions</li>
 </ul>
 
 requires recording data by trip, not journey.  In brief
 
-<ul>
-<li>A journey consists of one or more distinct trips.</li>
-<li>A distinct trip is a trip from $A \rightarrow B$ via the same land, air, or sea vehicle.</li>
-<li>Each <abbr title="record, row">instance</abbr> of a mileage data set should represent a distinct trip, taken/started on a specific date.</li>
-<li>Ensure each instance, i.e., each distinct trip, of a mileage data set has a journey identification code;
-  <ul>
-    <li>Each journey must have a unique code.</li>
-    <li>Trips of the same journey must the same journey identification code</li>
-  </ul>
-</li>
-<li>Include
-  <ul>
-    <li>trip start code [a geographic code that does not betray sensitive details]</li>
-    <li>trip end code [a geographic code that does not betray sensitive details]</li>
-  </ul>
-  
-</li>
+<ul class="disc">
+  <li class="disc">A journey consists of one or more distinct trips.</li>
+  <li class="disc">A distinct trip is a trip from <b>A</b> &rarr; <b>B</b> via the same land, air, or sea vehicle.</li>
+  <li class="disc">Each <abbr title="record, row">instance</abbr> of a mileage data set should represent a distinct trip, taken/started on a specific date.</li>
+  <li class="disc">Ensure each instance, i.e., each distinct trip, of a mileage data set has a journey identification code;
+    <ul class="circle">
+      <li class="circle">Each journey must have a unique code.</li>
+      <li class="circle">Trips of the same journey must the same journey identification code</li>
+    </ul>
+  </li>
+  <li class="disc">Include
+    <ul class="circle">
+      <li class="circle">trip start code [a geographic code that does not betray sensitive details]</li>
+      <li class="circle">trip end code [a geographic code that does not betray sensitive details]</li>
+    </ul>
+    
+  </li>
 </ul>
 
 <br>
