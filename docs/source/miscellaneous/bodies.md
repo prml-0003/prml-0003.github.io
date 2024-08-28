@@ -57,9 +57,11 @@ Each instance of the bodies should represent a distinct body.  In addition to th
 
 A body type may have its own classifications, e.g., Scotland's National Health Service organisations fall into one of the following health body classes
 
-* Regional
-* Special
-* Public
+<ul>
+  <li>Regional</li>
+  <li>Special</li>
+  <li>Public</li>
+</ul>
 
 Consequently, the aforementioned **bodies** table might be expanded.  The **plausible set of attributes** being
 
