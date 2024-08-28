@@ -1,27 +1,20 @@
----
-layout: default
-title: Summary
-nav_order: 1
-description: "Climate & Sustainability"
-permalink: /
-custom_css:
-- tooltips
----
 
 # Summary
-{: .fs-9 }
 
-Climate & Sustainability: Emissions
-{: .fs-6 .fw-300 }
+**Climate & Sustainability: Emissions**
 
 <br>
 
 These pages propose a few *conceptual data models* for acquiring the data measures underlying the direct & indirect demands of Climate Order 2015.  The order requires
 
-* The continuous tracking, assessment, and trend analysis of greenhouse gas emissions; by emission source categories.
-* The annual reporting of self-defined metrics.
-* Forecasting & intelligent interventions; for emission, cost, waste, poor health, etc., minimisation purposes. 
-* etc.
+<ul class="disc">
+  <li class="disc">The continuous tracking, assessment, and trend analysis of greenhouse gas emissions; by emission source categories.</li>
+  <li class="disc">The annual reporting of self-defined metrics.</li>
+  <li class="disc">Forecasting & intelligent interventions; for emission, cost, waste, poor health, etc., minimisation purposes. </li>
+  <li class="disc">etc.</li>
+</ul>
+
+<br>
 
 In general, if a pair of emission sources have disaccordant features, record their details via separate sets of fact & dimension tables.  It is straightforward to 
 
@@ -45,18 +38,28 @@ There are separate sections for mileage and premises; the miscellaneous section 
 
 The most confusing aspect of the Sustainable Scotland Network reports is the occasional conflation of the emission source with energy source.  A few emission source categories
 
-* Premises/Buildings: 
-  * Powering (via grid electricity, onsite renewable electricity, etc.)
-  * Heating (via natural gas, wood pellets, etc.)
-* Transport: 
-  * Disaggregated by vehicle type, powering fuel, and more.
-* Medical Gas
-* Refrigerant
-* Transmission & Distribution {of Grid Electricity, District Heat & Steam, Renewable Heat, Renewable Electricity}
-* Equipment
-* Water
-* Waste
+<ul class="disc">
+  <li class="disc">Premises/Buildings:
+    <ul style="margin-left: 35px;">
+      <li style="list-style: circle;">Powering (via grid electricity, onsite renewable electricity, etc.)</li>
+      <li style="list-style: circle;">Heating (via natural gas, wood pellets, etc.)</li>
+    </ul>
+  </li>
+  <li class="disc">Transport:
+    <ul style="margin-left: 35px;"><li style="list-style: circle;">Disaggregated by vehicle type, powering fuel, and more.</li></ul>
+  </li>
+  <li class="disc">Medical Gas</li>
+  <li class="disc">Refrigerant</li>
+  <li class="disc">Transmission & Distribution {of Grid Electricity, District Heat & Steam, Renewable Heat, Renewable Electricity}</li>
+  <li class="disc">Equipment</li>
+  <li class="disc">Water</li>
+  <li class="disc">Waste</li>
+</ul>
 
+<br>
+<br>
+<br>
+<br>
 
 <br>
 <br>
