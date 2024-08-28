@@ -44,7 +44,8 @@ li.disc {
     padding-top: 2px;
     padding-bottom: 2px;
     list-style: disc;
-    line-height: 1.6em
+    line-height: 1.6em;
+    margin-left: 35px;
 }
 
 ul.disc {
