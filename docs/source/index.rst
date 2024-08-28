@@ -16,7 +16,7 @@ Emissions
 
 .. container:: .buttons
 
-   `Introduction <introduction/introduction.html>`_
+   `Summary <summary/summary.html>`_
    `GitHub <https://github.com/prml-0003/prml-0003.github.io>`_
 
 
