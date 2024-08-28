@@ -138,7 +138,7 @@ A geographic code decision is required.
 
 The business value is
 
-> $\textnormal{business mileage} \times rate$ where $rate \in \[\textnormal{business rate low}, \quad \textnormal{business rate high}\]$
+> $\textnormal{business mileage} \times rate$ where $rate \in [\textnormal{business rate low}, \quad \textnormal{business rate high}]$
 
 Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
