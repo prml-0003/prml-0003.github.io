@@ -24,6 +24,10 @@
 </table>
 
 <br>
+
+The unit of measure of the $CO_{2}$ emission factor, for working at home, is  <i>kg $CO_{2}$e (kilogrammes in equivalent carbon dioxide) per hour</i>.  Therefore, the number of hours worked per day must be recorded.
+
+<br>
 <br>
 
 <br>
