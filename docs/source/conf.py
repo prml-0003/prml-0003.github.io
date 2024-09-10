@@ -39,7 +39,7 @@ master_doc = 'index'
 '''
 Basic
 '''
-project = ''
+project = '&nbsp; <span style="vertical-align: super; padding-top: 0; padding-bottom: 20px">Emissions</span>'
 project_copyright = '{}, greyhypotheses'.format(datetime.datetime.now().year)
 author = 'greyhypotheses'
 
