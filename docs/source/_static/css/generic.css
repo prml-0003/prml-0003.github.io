@@ -16,6 +16,10 @@
     margin-bottom: 2.0rem;
 }
 
+.rst-content h2 {
+    margin-bottom: 0.5rem;
+}
+
 .wy-breadcrumbs li {
     vertical-align: middle;
     margin-bottom: 8px;
@@ -33,9 +37,11 @@
     margin-top: 25px;
 }
 
-td,
-th {
-    padding: 5px;
+
+/* list */
+ul.disc, ol.numeric {
+    margin-left: 35px;
+    margin-bottom: 15px;
 }
 
 li.disc {
@@ -48,8 +54,13 @@ li.disc {
     margin-left: 35px;
 }
 
-ul.disc {
-    margin-left: 35px;
+li.numeric {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    list-style-type: decimal;
+    line-height: 1.6em
 }
 
 li.circle {
@@ -76,30 +87,30 @@ ul {
     margin-left: 10px;
 }
 
+
+/* Table */
+table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border: 0;
+    margin-left: 35px
+}
+
+td,
+th {
+    padding: 5px;
+}
+
+
+/*
+ * Mermaid diagrams
+ */
 .mermaid {
     max-width: 695px;
     max-height: 215px;
     margin-left: 60px;
 }
 
-li.numeric {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    list-style-type: decimal;
-    line-height: 1.6em
-}
-
-ol.numeric {
-    margin-left: 35px;
-}
-
-/* Paragraphs */
-p {
-    margin-bottom: 13px;
-    margin-top: 13px;
-}
 
 /**
  * Figure caption
@@ -115,4 +126,11 @@ figcaption {
 img.small {
     margin-left:65px;
     width:80%;
+}
+
+
+/* Paragraphs */
+p {
+    margin-bottom: 13px;
+    margin-top: 13px;
 }
